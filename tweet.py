@@ -1,9 +1,4 @@
-
-#アクセストークン
-#CK='<customer key>'
-#CS='<customer secret>'
-#AT='<access token>'
-#AS='<access secret>'
+path_to_key='./key.json'
 
 #ここより下は分かる人のみ弄って下さい
 #--------------------------------------------------------------------------------------------------
@@ -15,7 +10,7 @@ from collections import Counter
 import sys
 import json
 
-key_json=open('key.json','r')
+key_json=open(path_to_key,'r')
 key=json.load(key_json)
 
 CK=format(key['Consumer Key (API Key)'])

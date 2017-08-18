@@ -17,7 +17,8 @@ $ python tweet.py "<tweet text>"
 ### Convenient usage
  You can tweet easy by this way.
  
-1. Write down your ~/.bashrc and Execution "source ~/.bashrc"
+1. Edit "path_to_key" in "tweet.py" to complete path to "key.json"
+2. Write down your ~/.bashrc and Execution "source ~/.bashrc"
 ```
 tweet () {
   python (include scriptfile and key.json foldar)/tweet.py "$@"
@@ -46,8 +47,8 @@ $ python tweet.py "<ツイートするテキスト>"
 
 ## 便利な使い方
 こんな感じのことをすると便利に使えるかも？
-
-1. ~/.bashrcに以下を追記して「source ~/.bashrc」を実行
+1. 「tweet.py」の中の「path_to_key」の項目を「key.json」ファイルまでの完全なパスに書き換える
+2. ~/.bashrcに以下を追記して「source ~/.bashrc」を実行
 ```
 tweet () {
   python (スクリプトファイルとkey.jsonを入れたフォルダ)/tweet.py "$@"
