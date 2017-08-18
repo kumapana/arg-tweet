@@ -6,7 +6,7 @@
 
 ### Settings
 1. Get Twitter Access Token key.
-- Edit file "key.json"(Write your Access token key)
+2. Edit file "key.json"(Write your Access token key)
 
 ### Tweet
 ```
@@ -32,7 +32,7 @@ tweet () {
 
 ### 初期設定
 1. ツイッターのアクセストークンを取得して下さい。
-- key.jsonファイルに取得したアクセストークンを記入して下さい。
+2. key.jsonファイルに取得したアクセストークンを記入して下さい。
 
 ### ツイート
 ```
